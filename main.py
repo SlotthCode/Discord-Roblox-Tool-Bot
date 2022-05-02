@@ -44,7 +44,7 @@ async def checkuserid(ctx, userId=None):
 			embed.add_field(name="External App Display Name",value=ex,inline=True)
 			embed.add_field(name="Created At",value=created_at,inline=False)
 			embed.add_field(name="Desciption",value=description,inline=False)
-			embed.set_thumbnail(url=f"https://www.roblox.com/bust-thumbnail/image?userId={userId}&width=420&height=420&format=png'")
+			embed.set_thumbnail(url=f"https://www.roblox.com/headshot-thumbnail/image?userId={userId}&width=420&height=420&format=png")
 			await ctx.send(embed=embed)
 
 
